@@ -2,6 +2,9 @@ import os
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from threading import Thread
+
+import requests
+
 from parser import TelegramParser
 from utils import sanitize_filename, download_file, get_domain
 
